@@ -24,5 +24,16 @@
         </div>
         </div>
     </div>
+    <script>
+        const music = document.querySelector("audio");
+        const img = document.querySelector("img");
+        const play = document.getElementById("play");
+
+        play.addEventListener('click', () =>{
+            music.play();
+            play.classList.replace('fa-play', 'fa-pause');
+            img.classList.add("anime");
+        })
+    </script>
 </body>
 </html>
