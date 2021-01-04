@@ -36,16 +36,19 @@
         const songs=[
             {
                 name:"Aaj Bhi - Vishal Mishra",
+                image:"Img1",
                 title: "Aaj Bhi",
                 artist:"Vishal Mishra",
             },
             {
                 name:"Baari",
+                image:"Img2",
                 title: "Baari",
                 artist:"Bilal Saeed",
             },
             {
                 name:"Waalian",
+                image:"Img3",
                 title: "Waalian",
                 artist:"Harnoor",
             }
@@ -78,15 +81,10 @@
         const loadSong = (songs) => {
             title.textContent = songs.title;
             artist.textContent = songs.artist;
-            music.src = "music/" +songs.name + ".mp3";
-            img.src= "images/" +songs.name + ".jpg";
+            music.src = "music/" + songs.name + ".mp3";
+            img.src= "images/" + songs.name + ".jpg";
         
-    //    const loadSong =(songs) => {
-    //     title.textContent = songs.title;
-    //         artist.textContent = songs.artist;
-    //         music.src = ""
-           
-    //    }
+
     } ;     
            songIndex = 0;
             const nextSong = () => {
