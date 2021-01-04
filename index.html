@@ -1,10 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-</body>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="main_div">
+      <div class="music_container">
+        <h2 id="title">Aaj Bhi</h2>
+        <h3 id="artist">Vishal Mishra</h3>
+        <div class="img_container">
+          <img src="images/Img1.jpg" alt=" " />
+        </div>
+        <audio src="music/Aaj Bhi - Vishal Mishra.mp3 "></audio>
+        <div class="music_controls">
+          <i class="fas fa-backward" id="prev" title="Previous"></i>
+          <i class="fas fa-play main_button" id="play" title="Play"></i>
+          <i class="fas fa-forward" id="next" title="Next"></i>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
