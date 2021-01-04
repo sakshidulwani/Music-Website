@@ -67,6 +67,8 @@ html {
  width: 20rem;
  display: flex;
  justify-content: space-between;
+ margin: auto;
+ margin-top: 5rem;
 }
 
 .music_controls .fas{
@@ -76,3 +78,11 @@ html {
     filter: drop-shadow(0 1.2rem 3rem 0.5rem rgpa(0, 0, 0, 0.4));
 } 
 
+.music_controls .main-button {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: #111;
+    color: #f6f6f6;
+    font-size: 1.4rem;
+}
