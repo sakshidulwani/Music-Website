@@ -62,3 +62,17 @@ img{
     object-fit: cover;
     box-shadow: 0 1.2rem 3rem 0.5rem rgpa(0, 0, 0, 0.4);
 }
+
+.music_controls{
+ width: 20rem;
+ display: flex;
+ justify-content: space-between;
+}
+
+.music_controls .fas{
+    color: #111111;
+    font-size: 2rem;
+    cursor: pointer;
+    filter: drop-shadow(0 1.2rem 3rem 0.5rem rgpa(0, 0, 0, 0.4));
+}
+
