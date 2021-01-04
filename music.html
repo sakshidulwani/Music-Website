@@ -79,15 +79,22 @@
             title.textContent = songs.title;
             artist.textContent = songs.artist;
             music.src = "music/" +songs.name + ".mp3";
-            img.src= "images/"+songs.name + "jpg"
+            img.src= "images/"+songs.name + ". jpg";
         
-       const loadSong(songs) => {
-        title.textContent = songs.title;
-            artist.textContent = songs.artist;
-            music.src = ""
-       }
-    }
-
+    //    const loadSong =(songs) => {
+    //     title.textContent = songs.title;
+    //         artist.textContent = songs.artist;
+    //         music.src = ""
+           
+    //    }
+    } ;     
+           songIndex = 0;
+            const nextSong = () => {
+                songIndex++;
+                loadSong(songs[songIndex])
+            };
+            next.addEventListener("click" , nextSong);
+            prev.addEventListener("click", prevSong);
 
     </script>
 </body>
